@@ -1,1 +1,7 @@
 This is a test project used for testing the googletest-integration
+
+# run tests
+$cmake -S . -B ./makebuild
+$make -C makebuild/
+$cd makebuild/tests/
+$ctest CTestTestfile.cmake
